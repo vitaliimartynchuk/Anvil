@@ -3,13 +3,13 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView {
-            Tab("Skills", systemImage: "hammer.fill") {
+            Tab("", systemImage: "graduationcap.fill") {
                 SkillsView()
             }
-            Tab("Progress", systemImage: "chart.bar.fill") {
+            Tab("", systemImage: "chart.bar.xaxis") {
                 ProgressTabView()
             }
-            Tab("Settings", systemImage: "gearshape.fill") {
+            Tab("", systemImage: "gearshape.fill") {
                 SettingsView()
             }
         }
